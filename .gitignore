@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.env
+*.env
+**/secrets*
+**/*.key
+**/*.pem
+
+# OpenClaw workspace state (machine-specific)
+.openclaw/
+main/.openclaw/workspace-state.json
+xiaodaidai/.openclaw/workspace-state.json
+
+# Memory and private notes
+memory/
+MEMORY.md
+
+# Generated logs / archives
+*.log
+*.tmp
+*.bak
+
+# OS / editor noise
+.vscode/
+.idea/
